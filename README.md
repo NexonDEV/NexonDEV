@@ -15,7 +15,7 @@
 
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-
+ 
 - 🎶 Music is the medicine of my mind
 
 - 🧑‍🎓 High-school student
