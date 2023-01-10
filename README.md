@@ -94,7 +94,7 @@
 
 
 <p><div align="center">
-<img src="https://komarev.com/ghpvc/?username=NexonDEV&&style=flat-square" align="left" />
+<img src="https://komarev.com/ghpvc/?username=NexonDEV&&style=flat-square" align="center" />
 </div>  </p>
   
 
