@@ -89,11 +89,11 @@
   </div>
 
 <br/>  
-<br />
 
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=rishavanand&&style=flat-square" align="left" />
-</div>  
+
+<p><div align="center">
+<img src="https://komarev.com/ghpvc/?username=NexonDEV&&style=flat-square" align="left" />
+</div>  </p>
   
 
 <br />  
