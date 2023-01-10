@@ -1,9 +1,9 @@
 <div align="center">
-<img width="100%" height = "250px" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="cover" />
+<img width="100%" height = "250px" src="https://i.imgur.com/euJKUUG.jpg" alt="cover" />
 </div>
 
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%; height: 50%" />
 </div>  
   
 
@@ -95,10 +95,11 @@
 </div>  
   
 
-<br/>  
+<br />  
+<br />
 
 <div align="center">
-            <a href="https://ko-fi.com/nexondev" target="_blank" style="display: inline-block;">
+            <a href="https://ko-fi.com/nexondev" target="_blank">
                 <img
                     src="https://img.shields.io/badge/Donate-Ko--fi-F16061.svg?style=flat-square&logo=ko-fi" 
                     align="center"
