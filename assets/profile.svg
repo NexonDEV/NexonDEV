@@ -250,18 +250,18 @@
   <use href="#ic-contact" x="820" y="856" width="22" height="22" class="ic"/>
   <text x="852" y="875" class="h2">Contact Me</text>
 
-  <a href="https://www.linkedin.com/in/TWOJ_LOGIN" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/nexondev" target="_blank" rel="noreferrer">
     <use href="#ic-linkedin" x="820" y="895" width="18" height="18" class="ic"/>
-    <text x="845" y="910" class="mono">LinkedIn</text>
+    <text x="845" y="910" class="mono">/in/nexondev</text>
   </a>
 
-  <a href="https://discord.com/users/TWOJ_DISCORD_ID" target="_blank" rel="noreferrer">
+  <a href="https://discord.com/users/230422015926992896" target="_blank" rel="noreferrer">
     <use href="#ic-discord" x="820" y="918" width="18" height="18" class="ic"/>
-    <text x="845" y="933" class="mono">Discord</text>
+    <text x="845" y="933" class="mono">nexondev</text>
   </a>
 
-  <a href="mailto:you@domain" target="_blank" rel="noreferrer">
+  <a href="mailto:kontakt@nexondev.pl" target="_blank" rel="noreferrer">
     <use href="#ic-mail" x="820" y="941" width="18" height="18" class="ic"/>
-    <text x="845" y="956" class="mono">Mail</text>
+    <text x="845" y="956" class="mono">kontakt@nexondev.pl</text>
   </a>
 </svg>
