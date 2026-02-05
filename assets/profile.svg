@@ -1,0 +1,267 @@
+<svg width="1200" height="980" viewBox="0 0 1200 980" xmlns="http://www.w3.org/2000/svg">
+  <title>NexonDEV — backend developer</title>
+  <desc>
+    Tech Stack: TypeScript, JavaScript, PHP, Java, Kotlin, Swift, C++, Docker.
+    Frameworks: Laravel, Next.js, Nuxt, React, Vue.
+    Databases: MariaDB, MySQL, MongoDB, RethinkDB, PostgreSQL.
+    Tools: CLion, WebStorm, PhpStorm, IntelliJ IDEA, Git, VSCode, Xcode, n8n.
+    Contact: LinkedIn, Discord, Mail.
+  </desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f1f2e"/>
+      <stop offset="100%" stop-color="#141420"/>
+    </linearGradient>
+
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+
+    <clipPath id="avatarClip">
+      <circle cx="1030" cy="130" r="78"/>
+    </clipPath>
+
+    <symbol id="ic-user" viewBox="0 0 24 24">
+      <path d="M12 12a4.25 4.25 0 1 0-4.25-4.25A4.25 4.25 0 0 0 12 12Zm0 2.2c-4.2 0-7.6 2.15-7.6 4.8V20h15.2v-.99c0-2.66-3.4-4.81-7.6-4.81Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-chip" viewBox="0 0 24 24">
+      <path d="M9 3h6v2h2v2h2v6h-2v2h-2v2H9v-2H7v-2H5V7h2V5h2V3Zm0 6v6h6V9H9Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-code" viewBox="0 0 24 24">
+      <path d="M8.2 16.8 3.4 12l4.8-4.8 1.4 1.4L6.2 12l3.4 3.4-1.4 1.4Zm7.6 0-1.4-1.4 3.4-3.4-3.4-3.4 1.4-1.4L20.6 12l-4.8 4.8ZM13.2 4 10 20h-2l3.2-16h2Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-db" viewBox="0 0 24 24">
+      <path d="M12 3c-4.4 0-8 1.34-8 3v12c0 1.66 3.6 3 8 3s8-1.34 8-3V6c0-1.66-3.6-3-8-3Zm0 2c3.6 0 6 .94 6 1s-2.4 1-6 1-6-.94-6-1 2.4-1 6-1Zm0 14c-3.6 0-6-.94-6-1v-2c1.5 1 4.2 1.6 6 1.6s4.5-.6 6-1.6v2c0 .06-2.4 1-6 1Zm0-5c-3.6 0-6-.94-6-1v-2c1.5 1 4.2 1.6 6 1.6s4.5-.6 6-1.6v2c0 .06-2.4 1-6 1Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-tools" viewBox="0 0 24 24">
+      <path d="M21 7.5a6 6 0 0 1-7.9 5.7l-6.8 6.8a2 2 0 0 1-2.8-2.8l6.8-6.8A6 6 0 0 1 16.5 3l-3 3 2.5 2.5 3-3A6 6 0 0 1 21 7.5Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-contact" viewBox="0 0 24 24">
+      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-linkedin" viewBox="0 0 24 24">
+      <path d="M4.5 3.5A2.5 2.5 0 1 0 4.5 8.5 2.5 2.5 0 0 0 4.5 3.5ZM3 21h3V9H3v12Zm7 0h3v-6.2c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 2 2.1 3.4V21h3V14.3c0-3.3-.7-5.8-4.6-5.8-1.9 0-3.1 1-3.6 2h-.1V9h-2.9v12Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-discord" viewBox="0 0 24 24">
+      <path d="M19.5 5.1A16.8 16.8 0 0 0 15.9 4l-.3.6a14.4 14.4 0 0 0-3.2-.4c-1.1 0-2.2.1-3.2.4L8.9 4A16.8 16.8 0 0 0 5.3 5.1C3.8 7.6 3.2 10 3.4 12.4c1.8 1.3 3.5 2.1 5.1 2.6l.9-1.3c-.6-.2-1.2-.5-1.8-.9l.4-.3c3.4 1.6 7.2 1.6 10.6 0l.4.3c-.6.4-1.2.7-1.8.9l.9 1.3c1.6-.5 3.3-1.3 5.1-2.6.3-2.8-.4-5.1-1.9-7.3ZM9.4 13.4c-.7 0-1.2-.6-1.2-1.4s.5-1.4 1.2-1.4 1.2.6 1.2 1.4-.5 1.4-1.2 1.4Zm5.2 0c-.7 0-1.2-.6-1.2-1.4s.5-1.4 1.2-1.4 1.2.6 1.2 1.4-.5 1.4-1.2 1.4Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="ic-mail" viewBox="0 0 24 24">
+      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z" fill="currentColor"/>
+    </symbol>
+
+    <style>
+      .h1 { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 56px; font-weight: 700; fill: #ececf2; letter-spacing: 0.5px;}
+      .sub { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 18px; fill: #a9a9c2;}
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #8fd3c8;}
+      .h2 { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 20px; font-weight: 650; fill: #d7d7e6;}
+      .p  { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 16px; fill: #b4b4cc;}
+      .muted { fill: #8b8ba6; }
+      .card { fill: #1b1b2a; opacity: 0.92; stroke: #2a2a3d; stroke-width: 1; }
+      .pill { fill: #202037; stroke: #2d2d48; stroke-width: 1; opacity: 0.98; }
+      .pillText { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; fill: #d7d7e6; }
+      .ic { color: #8fd3c8; opacity: 0.95; }
+      a text { text-decoration: underline; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="980" fill="url(#bg)"/>
+  <rect width="1200" height="980" filter="url(#noise)"/>
+
+  <circle cx="1060" cy="70" r="150" fill="#2a2a40" opacity="0.35"/>
+  <circle cx="1110" cy="220" r="190" fill="#242438" opacity="0.22"/>
+
+  <text x="80" y="130" class="h1">NexonDEV</text>
+  <text x="80" y="170" class="sub">backend developer • APIs • tools • apps</text>
+  <text x="80" y="205" class="mono">TS · JS · PHP · Java · Kotlin · Swift · C++ · Docker</text>
+
+  <circle cx="1030" cy="130" r="84" fill="#8fd3c8" opacity="0.12"/>
+  <image href="./assets/avatar.png" x="952" y="52" width="156" height="156" clip-path="url(#avatarClip)"/>
+
+  <rect x="80" y="260" width="1040" height="170" rx="18" class="card"/>
+  <use href="#ic-user" x="110" y="286" width="22" height="22" class="ic"/>
+  <text x="142" y="305" class="h2">About Me</text>
+  <text x="110" y="342" class="p muted">I put something here later</text>
+  <text x="110" y="372" class="p muted">For now it's just a placeholder</text>
+
+  <rect x="80" y="450" width="1040" height="150" rx="18" class="card"/>
+  <use href="#ic-chip" x="110" y="476" width="22" height="22" class="ic"/>
+  <text x="142" y="495" class="h2">Tech Stack</text>
+
+  <g transform="translate(110,520)">
+    <g>
+      <rect class="pill" rx="14" width="110" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">TS</text>
+    </g>
+
+    <g transform="translate(120,0)">
+      <rect class="pill" rx="14" width="110" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">JS</text>
+    </g>
+
+    <g transform="translate(240,0)">
+      <rect class="pill" rx="14" width="110" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">PHP</text>
+    </g>
+
+    <g transform="translate(360,0)">
+      <rect class="pill" rx="14" width="110" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">Java</text>
+    </g>
+
+    <g transform="translate(480,0)">
+      <rect class="pill" rx="14" width="125" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">Kotlin</text>
+    </g>
+
+    <g transform="translate(615,0)">
+      <rect class="pill" rx="14" width="120" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">Swift</text>
+    </g>
+
+    <g transform="translate(745,0)">
+      <rect class="pill" rx="14" width="110" height="32"/>
+      <use href="#ic-code" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">C++</text>
+    </g>
+
+    <g transform="translate(865,0)">
+      <rect class="pill" rx="14" width="125" height="32"/>
+      <use href="#ic-tools" x="10" y="8" width="16" height="16" class="ic"/>
+      <text class="pillText" x="32" y="21">Docker</text>
+    </g>
+  </g>
+
+  <rect x="80" y="620" width="510" height="190" rx="18" class="card"/>
+  <use href="#ic-code" x="110" y="646" width="22" height="22" class="ic"/>
+  <text x="142" y="665" class="h2">Frameworks</text>
+
+  <g transform="translate(110,695)">
+    <g>
+      <use href="#ic-code" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Laravel</text>
+    </g>
+    <g transform="translate(0,28)">
+      <use href="#ic-code" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Next.js</text>
+    </g>
+    <g transform="translate(0,56)">
+      <use href="#ic-code" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Nuxt</text>
+    </g>
+    <g transform="translate(220,0)">
+      <use href="#ic-code" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">React</text>
+    </g>
+    <g transform="translate(220,28)">
+      <use href="#ic-code" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Vue</text>
+    </g>
+  </g>
+
+  <rect x="610" y="620" width="510" height="190" rx="18" class="card"/>
+  <use href="#ic-db" x="640" y="646" width="22" height="22" class="ic"/>
+  <text x="672" y="665" class="h2">Databases</text>
+
+  <g transform="translate(640,695)">
+    <g>
+      <use href="#ic-db" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">MariaDB</text>
+    </g>
+    <g transform="translate(0,28)">
+      <use href="#ic-db" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">MySQL</text>
+    </g>
+    <g transform="translate(0,56)">
+      <use href="#ic-db" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">MongoDB</text>
+    </g>
+    <g transform="translate(220,0)">
+      <use href="#ic-db" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">RethinkDB</text>
+    </g>
+    <g transform="translate(220,28)">
+      <use href="#ic-db" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">PostgreSQL</text>
+    </g>
+  </g>
+
+  <rect x="80" y="830" width="690" height="120" rx="18" class="card"/>
+  <use href="#ic-tools" x="110" y="856" width="22" height="22" class="ic"/>
+  <text x="142" y="875" class="h2">Tools</text>
+
+  <g transform="translate(110,905)">
+    <g>
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">CLion</text>
+    </g>
+    <g transform="translate(120,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">WebStorm</text>
+    </g>
+    <g transform="translate(280,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">PhpStorm</text>
+    </g>
+    <g transform="translate(440,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">IntelliJ IDEA</text>
+    </g>
+  </g>
+
+  <g transform="translate(110,935)">
+    <g>
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Git</text>
+    </g>
+    <g transform="translate(120,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">VSCode</text>
+    </g>
+    <g transform="translate(280,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">Xcode</text>
+    </g>
+    <g transform="translate(440,0)">
+      <use href="#ic-tools" x="0" y="-12" width="16" height="16" class="ic"/>
+      <text x="22" y="0" class="p">n8n</text>
+    </g>
+  </g>
+
+  <rect x="790" y="830" width="330" height="120" rx="18" class="card"/>
+  <use href="#ic-contact" x="820" y="856" width="22" height="22" class="ic"/>
+  <text x="852" y="875" class="h2">Contact Me</text>
+
+  <a href="https://www.linkedin.com/in/TWOJ_LOGIN" target="_blank" rel="noreferrer">
+    <use href="#ic-linkedin" x="820" y="895" width="18" height="18" class="ic"/>
+    <text x="845" y="910" class="mono">LinkedIn</text>
+  </a>
+
+  <a href="https://discord.com/users/TWOJ_DISCORD_ID" target="_blank" rel="noreferrer">
+    <use href="#ic-discord" x="820" y="918" width="18" height="18" class="ic"/>
+    <text x="845" y="933" class="mono">Discord</text>
+  </a>
+
+  <a href="mailto:you@domain" target="_blank" rel="noreferrer">
+    <use href="#ic-mail" x="820" y="941" width="18" height="18" class="ic"/>
+    <text x="845" y="956" class="mono">Mail</text>
+  </a>
+</svg>
