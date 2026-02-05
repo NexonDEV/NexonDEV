@@ -88,7 +88,7 @@
   <text x="80" y="205" class="mono">TS · JS · PHP · Java · Kotlin · Swift · C++ · Docker</text>
 
   <circle cx="1030" cy="130" r="84" fill="#8fd3c8" opacity="0.12"/>
-  <image href="./assets/avatar.png" x="952" y="52" width="156" height="156" clip-path="url(#avatarClip)"/>
+  <image href="https://raw.githubusercontent.com/NexonDEV/NexonDEV/refs/heads/main/assets/avatar.png" x="952" y="52" width="156" height="156" clip-path="url(#avatarClip)"/>
 
   <rect x="80" y="260" width="1040" height="170" rx="18" class="card"/>
   <use href="#ic-user" x="110" y="286" width="22" height="22" class="ic"/>
